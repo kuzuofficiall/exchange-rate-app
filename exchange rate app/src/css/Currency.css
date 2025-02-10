@@ -1,0 +1,69 @@
+/* Currency.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.currency-container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.converter-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.currency-input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.currency-select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.exchange-icon {
+    font-size: 24px;
+    margin: 12px auto;
+    color: #ff6600;
+}
+
+.convert-button {
+    background: #ff6600;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.convert-button:hover {
+    background: #ff4d00;
+}
+
+.result {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #333;
+}

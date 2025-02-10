@@ -1,0 +1,75 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?finance,background') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.currency-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.converter-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.currency-input,
+.currency-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.currency-input:focus,
+.currency-select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.exchange-icon {
+  font-size: 32px;
+  color: #007bff;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.exchange-icon:hover {
+  transform: rotate(180deg);
+}
+
+.convert-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.convert-button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  font-weight: bold;
+}
